@@ -1,0 +1,142 @@
+.introduction-block {
+    position: relative;
+    background-image: url("https://blockchainaustralia.org/wp-content/uploads/2021/05/2-2.png"); 
+    height: 1030.48px;
+
+}
+.introduction-block .content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.introduction-block .content .align-center{
+    margin: auto !important;
+}
+
+.vision-intro {
+    text-align: center;
+    padding-top: 35px;
+    margin: 0 5vh;
+}
+
+.vision-intro h2{
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 1.2em;
+}
+
+.vision-intro span{
+    font-size: 17px;
+    line-height: 1.8em;
+    font-weight: 400;
+}
+
+.box-item .item-header {
+    margin-bottom: 30px;
+}
+.box-item .item-content {
+    margin-bottom: 25px;
+    line-height: 1.6em;
+    font-size: 17px;
+    font-weight: 400;
+}
+.event-info {    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 128px;
+    text-align: -webkit-center;
+    background-image: url(https://blockchainaustralia.org/wp-content/uploads/2021/12/Blockchain-Week-2022-Website-2.png)!important;
+}
+.event-info img {
+    max-width: 23%;
+    height: auto;
+}
+.event-info ul {
+    list-style-type: circle;
+}
+.event-info h2 {
+    margin-bottom: 30px;
+    font-family: 'Michroma',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 2.3em;
+    letter-spacing: 2px;
+}
+.event-info p, ul {
+    font-family: 'Abel',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1.7em;
+    margin-bottom: 8px;
+}
+
+.block-content {
+    max-width: 96%;
+    margin-left: auto!important;
+    margin-right: 0px!important;
+    padding: 3vw 0 7vw;
+    background-color: #051d40!important;
+    
+}
+.block-content img {
+    width: 30%;
+    height: fit-content;
+}
+
+.reverse .button {
+    display: inline-flex;
+}
+
+.block-content .inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+.text-context {
+    width: 60%;
+    height: fit-content;
+}
+.block-content .content-header {
+
+    font-family: 'Anonymous Pro',monospace;
+    font-weight: 700;
+    font-size: 4em;
+    color: #ffffff!important;
+    line-height: 1.4em;
+}
+.block-content .content-content {
+    font-weight: 400;
+    font-family: 'Anonymous Pro',monospace;
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+
+.fourth-block {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-block .left-block {
+    padding: 4vw 0;
+    width: 30%;
+    margin-right: 5.5%;
+}
+.fourth-block .box {
+    grid-template-columns: repeat(auto-fit, minmax(max(250px,21vw), 1fr)) !important;
+    box-shadow: 0px 10px 60px 0px #073160;
+    padding: 0 !important;
+    margin-top: 4vw;
+}
+
+.box-fourth-item {
+    padding: 30px;
+}
+
+.box-fourth-item:hover {
+    color: #073160!important;
+    background-image: initial;
+    background-color: rgba(217,112,37,0.56);
+}
