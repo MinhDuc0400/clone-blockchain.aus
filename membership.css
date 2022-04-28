@@ -1,0 +1,69 @@
+.application-button {
+    background-color: white;
+    border: 1px solid #ec8c22;
+    color: #ec8c22;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    font-family: 'Anonymous Pro',monospace!important;
+    font-weight: 600!important;
+    text-transform: uppercase!important;
+}
+.application-button:hover {
+    background-color: #ec8c22 !important;
+    color: white;
+}
+.content {
+    padding: 5vw 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.membership-pack {
+    display: flex;
+    flex-direction: row;
+}
+.membership-pack .left-block {
+    width: 80%;
+}
+h1 {
+    font-family: 'Anonymous Pro',monospace;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.4em;
+}
+h3 {
+    font-family: 'Anonymous Pro',monospace;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333;
+}
+h4 {
+    font-family: 'Anonymous Pro',monospace;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.4em;
+}
+span {
+    font-family: 'Anonymous Pro',monospace;
+    font-size: 16px;
+    line-height: 2em;
+    font-weight: 400;
+    color: #666;
+}
+.pack-price {
+    font-family: 'Anonymous Pro',monospace;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-style: italic;
+}
+
+.pack-detail ul li {
+    font-family: 'Anonymous Pro',monospace;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+.button-des {
+    font-family: 'Anonymous Pro',monospace;
+    font-size: 16px;
+    line-height: 1.8em;
+    margin-bottom: 5px!important;
+}

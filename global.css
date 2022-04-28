@@ -35,6 +35,12 @@
 .right-text {
     text-align: right;
 }
+.center-text {
+    text-align: center;
+}
+.left-text {
+    text-align: left;
+}
 .giant-font {
     font-weight: 700;
     font-size: 100px;
@@ -75,4 +81,68 @@
 }
 .box .box-item {
     text-align: -webkit-center;
+}
+
+.footer {
+    background-color: #051D40;
+    padding: 4vw 12vw;
+    display: flex;
+}
+.footer .left-block {
+    width: 30%;
+    font-size: 14px;
+    padding-right: 8%;
+    font-family: 'Anonymous Pro',monospace;
+    font-weight: 700;
+}
+
+.footer .mid-block{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .mid-block a {
+    font-family: 'Anonymous Pro',monospace;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 70;
+}
+.footer .right-block {
+    width: 40%;
+}
+
+.footer .right-block .block-text {
+    font-family: 'Anonymous Pro',monospace;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 1.4em;
+}
+
+.footer .right-block .button-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer .right-block .social {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer .right-block .round {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    margin: 16px 4px;
+}
+
+.small-line {
+    width: 50px;
+    height: 3px;
+    background-color: #ec8c22;;
+}
+
+.underline {
+    text-decoration: underline;
 }
